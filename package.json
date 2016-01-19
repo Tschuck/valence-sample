@@ -1,0 +1,10 @@
+{
+  "name"    : "valence_sample_app",
+  "version" : "0.0.1",
+  "main"    : "index.js",
+  "author"  : "Tschuck",
+  "dependencies" : { 
+    "valence-bond" : "0.0.1"
+  },
+  "devDependencies" : { }
+}
