@@ -15,8 +15,9 @@ module.exports = {
   //electron window configuration (new BrowserWindow)
   window : { 
     type            : 'splash',
-    "always-on-top" : true,
-    "skip-taskbar"  : true,
+    "alwayOnTop" : true,
+    "skipTaskbar"  : true,
+    "overlayScrollbars" : false,
     
     //position of the window
     //can be on of the following possibilities
@@ -30,8 +31,6 @@ module.exports = {
     width           : 0,
     height          : 0,      
 
-    "overlay-scrollbars" : false,
-    "always-on-top"      : true, 
     resizable            : false,
 
     transparent     : true,
